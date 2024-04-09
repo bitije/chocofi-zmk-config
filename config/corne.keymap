@@ -669,18 +669,18 @@
 
         symbols {
             bindings = <
-  &kp APOS   &kp LBKT              &kp EQUAL  &kp RBKT               &kp UNDERSCORE          &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP  &kp END        &kp PRINTSCREEN
-  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp MINUS  &kp RIGHT_PARENTHESIS  &kp PLUS                &kp LEFT      &kp DOWN       &kp UP       &kp RIGHT      &kp K_BACK
-  &kp TILDE  &kp LEFT_BRACE        &kp PIPE   &kp RIGHT_BRACE        &kp NON_US_BACKSLASH    &kp LC(LEFT)  &kp DELETE     &kp INSERT   &kp LC(RIGHT)  &kp K_FORWARD
-                                   &trans     &trans                 &trans                  &trans        &trans         &trans
+  &kp APOS   &kp LBKT              &kp EQUAL  &kp RBKT               &kp UNDERSCORE    &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP  &kp END        &kp PRINTSCREEN
+  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp MINUS  &kp RIGHT_PARENTHESIS  &kp PLUS          &kp LEFT      &kp DOWN       &kp UP       &kp RIGHT      &kp K_BACK
+  &kp TILDE  &kp LEFT_BRACE        &kp PIPE   &kp RIGHT_BRACE        &kp BSLH          &kp LC(LEFT)  &kp DELETE     &kp INSERT   &kp LC(RIGHT)  &kp K_FORWARD
+                                   &trans     &trans                 &trans            &trans        &trans         &trans
             >;
         };
 
         numpad_and_f {
             bindings = <
-  &kp C_VOLUME_UP    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp GRAVE       &trans  &kp F1  &kp F2  &kp F3  &kp F10
+  &kp C_VOLUME_UP    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp GRAVE       &trans  &kp F1  &kp F2  &kp F3  &kp F10
   &kp C_VOLUME_DOWN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans          &trans  &kp F4  &kp F5  &kp F6  &kp F11
-  &kp TAB            &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0    &trans  &kp F7  &kp F8  &kp F9  &kp F12
+  &kp TAB            &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &trans  &kp F7  &kp F8  &kp F9  &kp F12
                                    &trans        &trans        &trans          &trans  &trans  &trans
             >;
         };
