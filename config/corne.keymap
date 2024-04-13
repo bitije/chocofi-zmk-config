@@ -669,10 +669,10 @@
 
         symbols {
             bindings = <
-  &kp APOS   &kp LBKT              &kp EQUAL      &kp RBKT               &kp UNDERSCORE    &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP  &kp END        &kp PRINTSCREEN
-  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp MINUS      &kp RIGHT_PARENTHESIS  &kp PLUS          &kp LEFT      &kp DOWN       &kp UP       &kp RIGHT      &kp K_BACK
-  &kp TILDE  &kp LEFT_BRACE        &kp PIPE       &kp RIGHT_BRACE        &kp BACKSLASH     &kp LC(LEFT)  &kp DELETE     &kp INSERT   &kp LC(RIGHT)  &kp K_FORWARD
-                                   &kp BACKSLASH  &kp B                  &trans            &trans        &trans         &trans
+  &kp APOS   &kp LBKT              &kp EQUAL  &kp RBKT               &kp UNDERSCORE    &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP  &kp END        &kp PRINTSCREEN
+  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp MINUS  &kp RIGHT_PARENTHESIS  &kp PLUS          &kp LEFT      &kp DOWN       &kp UP       &kp RIGHT      &kp K_BACK
+  &kp TILDE  &kp LEFT_BRACE        &kp PIPE   &kp RIGHT_BRACE        &kp BACKSLASH     &kp LC(LEFT)  &kp DELETE     &kp INSERT   &kp LC(RIGHT)  &kp K_FORWARD
+                                   &trans     &trans                 &trans            &trans        &trans         &trans
             >;
         };
 
