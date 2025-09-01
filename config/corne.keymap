@@ -682,7 +682,7 @@
   &kp COMMA  &kp LEFT_BRACKET      &kp EQUAL  &kp RIGHT_BRACKET      &kp UNDERSCORE    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp PRINTSCREEN
   &kp GRAVE  &kp LEFT_PARENTHESIS  &kp MINUS  &kp RIGHT_PARENTHESIS  &kp PLUS          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp K_BACK
   &kp TILDE  &kp LEFT_BRACE        &kp PIPE   &kp RIGHT_BRACE        &kp BACKSLASH     &trans          &kp DELETE      &kp INSERT    &trans           &kp K_FORWARD
-                                   &tog 3     &trans                 &trans            &trans          &trans          &trans
+                                   &to 3      &trans                 &trans            &trans          &trans          &trans
             >;
         };
 
@@ -699,7 +699,7 @@
             bindings = <
   &kp CAPSLOCK  &kp F1        &kp F2        &kp F3        &kp F4    &trans  &trans  &trans  &trans  &trans
   &kp TAB       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F5    &trans  &trans  &trans  &trans  &trans
-  &tog 0        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans
+  &to 0         &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans
                               &trans        &trans        &trans    &trans  &trans  &trans
             >;
         };
