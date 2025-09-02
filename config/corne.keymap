@@ -688,19 +688,19 @@
 
         gaming {
             bindings = <
-  &kp Z          &kp X      &kp C   &kp V         &kp B        &trans  &trans  &trans  &trans  &trans
-  &kp G          &kp Q      &kp W   &kp E         &kp R        &trans  &trans  &trans  &trans  &trans
-  &kp LESS_THAN  &kp GRAVE  &kp F1  &kp D         &kp F        &trans  &trans  &trans  &trans  &trans
-                            &mo 4   &kp LEFT_ALT  &kp SPACE    &trans  &trans  &trans
+  &kp Z          &kp X           &kp C             &kp V         &kp B        &trans  &trans  &trans  &trans  &trans
+  &mo 4          &kp Q           &kp W             &kp E         &kp R        &trans  &trans  &trans  &trans  &trans
+  &kp LESS_THAN  &kp LEFT_SHIFT  &kp S             &kp D         &kp F        &trans  &trans  &trans  &trans  &trans
+                                 &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE    &trans  &trans  &trans
             >;
         };
 
         gaming2 {
             bindings = <
-  &kp CAPSLOCK  &kp F1        &kp F2        &kp F3        &kp F4    &trans  &trans  &trans  &trans  &trans
-  &kp TAB       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F5    &trans  &trans  &trans  &trans  &trans
-  &to 0         &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans
-                              &trans        &trans        &trans    &trans  &trans  &trans
+  &kp CAPSLOCK  &kp F1        &kp F2        &kp F3        &kp F4       &trans  &trans  &trans  &trans  &trans
+  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F5       &trans  &trans  &trans  &trans  &trans
+  &to 0         &trans        &kp K         &kp G         &kp GRAVE    &trans  &trans  &trans  &trans  &trans
+                              &trans        &kp A         &kp TAB      &trans  &trans  &trans
             >;
         };
     };
