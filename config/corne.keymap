@@ -697,10 +697,10 @@
 
         gaming2 {
             bindings = <
-  &kp CAPSLOCK  &kp F1        &kp F2        &kp F3        &kp F4     &trans  &trans  &trans  &trans  &trans
-  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F5     &trans  &trans  &trans  &trans  &trans
-  &to 0         &kp GRAVE     &kp K         &kp G         &kp T      &trans  &trans  &trans  &trans  &trans
-                              &trans        &kp A         &kp TAB    &trans  &trans  &trans
+  &kp CAPSLOCK  &kp F1        &kp F2        &kp F3        &kp F4    &trans  &trans  &trans  &trans  &trans
+  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F5    &trans  &trans  &trans  &trans  &trans
+  &to 0         &kp GRAVE     &kp K         &kp G         &kp T     &trans  &trans  &trans  &trans  &trans
+                              &trans        &trans        &kp A     &trans  &trans  &trans
             >;
         };
     };
